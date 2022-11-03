@@ -1,0 +1,19 @@
+---
+title: "3.report.pdf"
+author: "Shuai Huang"
+date: "2022-11-03"
+output: pdf_document
+---
+
+
+# Final Report
+```{r}
+a=1
+```
+
+![](./Figures/corr.png)
+
+
+
+
+Test output for the final project
