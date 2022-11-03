@@ -2,3 +2,9 @@ Part of the data was collected from people from the countries of Mexico, Peru an
 In the analysis, the response variable is obesity, which is a binary variable, and there are 14 covariates used for evaluation, including eating habits, physical condition and other features.
 The eating habits features are: Frequent consumption of high caloric food (FAVC), Frequency of consumption of vegetables (FCVC), Number of main meals (NCP), Consumption of food between meals (CAEC), Consumption of water daily (CH20), and Consumption of alcohol (CALC). The physical condition features are: Calories consumption monitoring (SCC), Physical activity frequency (FAF), Time using technology devices (TUE), Transportation used (MTRANS), other covariates obtained were: Gender, Age, Smoke, Family overweight history. 
 The covariate age is a continuous variable, while other covariates are all categorical variables.
+
+docker:
+
+docker build -t bios611-project .
+
+docker run -v ${pwd}:/home/rstudio -e PASSWORD=pwd -p 8787:8787 bios611-project
