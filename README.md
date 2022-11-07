@@ -18,7 +18,7 @@ This structure of dependencies is manifested directly in your
 makefile, so putting aside issues of Docker, etc, the way your project
 works is that you say:
 
-#+begin_src sh 
+``` 
 make clean
 make 3.report.pdf
-#+end_src
+```
