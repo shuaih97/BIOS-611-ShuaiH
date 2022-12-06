@@ -9,7 +9,7 @@ The covariate age is a continuous variable, while other covariates are all categ
 docker:
 ```
 docker build -t bios611-project .
-docker run -v ${pwd}:/home/rstudio -e PASSWORD=pwd -p 8787:8787 bios611-project
+docker run -v ${PWD}:/home/rstudio -e PASSWORD=pwd -p 8787:8787 bios611-project
 ```
 
 You then visit http://localhost:8787 via a browser on your machine to access the machine and development environment. For the curious, we also expose port 8888 so that we can launch other servers from in the container.
