@@ -22,9 +22,9 @@ works is that you say:
 
 ``` 
 make clean
-make 3.report.pdf
+make report.pdf
 ```
 Note that to build the final report, you should visit the terminal in RStudio and type
 ```
-make 3.report.pdf
+make report.pdf
 ```
