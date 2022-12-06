@@ -7,6 +7,7 @@ The eating habits features are: Frequent consumption of high caloric food (FAVC)
 The covariate age is a continuous variable, while other covariates are all categorical variables.
 
 docker:
+First, make sure you are under this bios-611-project folder, then run:
 ```
 docker build -t bios611-project .
 docker run -v ${PWD}:/home/rstudio -e PASSWORD=pwd -p 8787:8787 bios611-project
